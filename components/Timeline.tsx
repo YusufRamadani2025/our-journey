@@ -6,19 +6,19 @@ import Image from 'next/image'
 // --- DATA TIMELINE (GANTI DISINI) ---
 const TIMELINE_DATA = [
   {
-    year: "2023",
+    year: "2025",
     title: "The First Encounter",
     description: "Awalnya cuma 'hai' biasa, siapa sangka bakal jadi sejauh ini. Momen dimana kita masih malu-malu kucing.",
     image: "/hero.jpeg" 
   },
   {
-    year: "Late 2023",
+    year: "October 2025",
     title: "First Trip Together",
     description: "Jalan-jalan pertama kita. Nyasar bareng, ketawa bareng, dan makan pinggir jalan yang ternyata enak banget.",
     image: "/hero.jpeg" 
   },
   {
-    year: "2024",
+    year: "Late 2025",
     title: "Through The Storms",
     description: "Gak selamanya mulus, tapi kita belajar buat nurunin ego dan saling ngerti. We grow stronger here.",
     image: "/hero.jpeg"
