@@ -9,15 +9,15 @@ const FAVORITES_DATA = {
   ramadani: {
     name: "Rama",
     food: "Nasi Goreng",
-    hobby: "Coding & Gaming",
+    hobby: "Bubuk",
     movie: "Action",
     color: "Black & White"
   },
   partner: {
     name: "Raissa", // Ganti nama pacar lu
     food: "Bebek Bumbu Hitam",
-    hobby: "Scroll TikTok / Shopping",
-    movie: "K-Drama / Romance",
+    hobby: "Mamam / Shopping",
+    movie: "Horror",
     color: "Pink"
   }
 }
