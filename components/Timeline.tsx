@@ -6,13 +6,13 @@ import Image from 'next/image'
 // --- DATA TIMELINE (GANTI DISINI) ---
 const TIMELINE_DATA = [
   {
-    year: "Agustus 2025",
+    year: "Agust 2025",
     title: "The First Encounter",
     description: "Awalnya cuma chat 'misi', siapa sangka bakal jadi sejauh ini. Momen dimana kita baru ketemu udah petenteng - petenteng.",
     image: "/galery3.jpg" 
   },
   {
-    year: "September 2025",
+    year: "2025",
     title: "First Trip Together",
     description: "Jalan-jalan pertama kita. Nyasar bareng, ketawa bareng, dan makan pinggir jalan yang ternyata enak banget.",
     image: "/galery1.jpg" 
