@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function Closing() {
   return (
-    <section className="min-h-[80vh] bg-black flex flex-col items-center justify-center py-32 px-4 relative z-20 overflow-hidden">
+    <section className="min-h-[90vh] bg-black flex flex-col items-center justify-center py-32 px-4 relative z-20 overflow-hidden">
       
       {/* Background Gradient Halus (Pink Tipis di Bawah) */}
       <div className="absolute inset-0 bg-gradient-to-t from-neon-pink/10 via-black to-black z-0"></div>
@@ -27,7 +27,7 @@ export default function Closing() {
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-10%" }} // Muncul pas 10% elemen masuk layar
+          viewport={{ once: true, margin: "-10%" }} 
           transition={{ duration: 1, delay: 0.3 }}
           className="space-y-8"
         >

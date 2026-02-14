@@ -3,7 +3,9 @@ import Hero from '@/components/Hero'
 import Definition from '@/components/Definition'
 import Timeline from '@/components/Timeline'
 import Gallery from '@/components/Gallery'
-import Closing from '@/components/Closing' // Import Closing
+import Closing from '@/components/Closing'
+import Favorites from '@/components/Favorites'
+import SecretGarden from '@/components/SecretGarden'
 
 export default function Home() {
   return (
@@ -14,9 +16,9 @@ export default function Home() {
         <Definition />
       </div>
       <Timeline />
+      <Favorites />
       <Gallery />
-      
-      {/* BAGIAN PENUTUP */}
+      <SecretGarden />
       <Closing />
 
       {/* Footer Final */}

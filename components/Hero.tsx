@@ -20,15 +20,17 @@ export default function Hero() {
       
       <motion.div style={{ y }} className="absolute inset-0 z-0">
         <Image
-        src="/hero.jpeg" 
-        alt="Us"
-        fill
-        className="object-cover opacity-60" // opacity sesuaikan selera
-        priority
-        
-        // --- TAMBAHAN PENTING BIAR HD ---
-        quality={100} 
-        sizes="100vw" 
+          src="/hero.jpeg"
+          alt="Us"
+          fill
+          className="object-cover opacity-60"
+          priority
+          quality={100}
+          
+          // --- UBAH BAGIAN INI ---
+          // Artinya: Kalau di HP (max-width 768px), download gambar seukuran 3x layar (300vw).
+          // Kalau di Laptop, download seukuran layar biasa (100vw).
+          sizes="(max-width: 768px) 300vw, 100vw" 
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black" />
       </motion.div>

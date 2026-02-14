@@ -6,28 +6,28 @@ import Image from 'next/image'
 // --- DATA TIMELINE (GANTI DISINI) ---
 const TIMELINE_DATA = [
   {
-    year: "2025",
+    year: "Agustus 2025",
     title: "The First Encounter",
-    description: "Awalnya cuma 'hai' biasa, siapa sangka bakal jadi sejauh ini. Momen dimana kita masih malu-malu kucing.",
-    image: "/hero.jpeg" 
+    description: "Awalnya cuma chat 'misi', siapa sangka bakal jadi sejauh ini. Momen dimana kita baru ketemu udah petenteng - petenteng.",
+    image: "/galery3.jpg" 
   },
   {
-    year: "October 2025",
+    year: "September 2025",
     title: "First Trip Together",
     description: "Jalan-jalan pertama kita. Nyasar bareng, ketawa bareng, dan makan pinggir jalan yang ternyata enak banget.",
-    image: "/hero.jpeg" 
+    image: "/galery1.jpg" 
   },
   {
     year: "Late 2025",
     title: "Through The Storms",
     description: "Gak selamanya mulus, tapi kita belajar buat nurunin ego dan saling ngerti. We grow stronger here.",
-    image: "/hero.jpeg"
+    image: "/galery6.jpg"
   },
   {
     year: "Now",
     title: "Still Counting",
     description: "Setiap hari adalah halaman baru. Can't wait for what's next with you.",
-    image: "/hero.jpeg" // Pake foto hero lagi atau foto terbaru
+    image: "/galery4.jpg" // Pake foto hero lagi atau foto terbaru
   }
 ]
 

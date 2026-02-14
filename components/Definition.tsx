@@ -71,7 +71,10 @@ export default function Definition() {
           
           <div className="space-y-4 border-l-2 border-white/20 pl-6">
             <p className="font-sans text-gray-300 leading-relaxed text-sm md:text-base">
-              1. A chaotic but beautiful mess. Two people who refuse to give up on each other.
+              1. Tidak ada yang lebih indah ketika bersama-mu.
+            </p>
+            <p className="font-sans text-gray-300 leading-relaxed text-sm md:text-base">
+              2. Aku, Kamu, dan Kita.
             </p>
           </div>
         </motion.div>
@@ -99,8 +102,8 @@ export default function Definition() {
                 </span>
             </div>
 
-            <Counter value={550} label="Coffees Shared" />
-            <Counter value={120} label="Movies Watched" />
+            <Counter value={124} label="Go for a walk" />
+            <Counter value={110} label="Eat Together" />
         </div>
 
       </div>
